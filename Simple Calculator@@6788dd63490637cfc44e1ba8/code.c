@@ -21,7 +21,7 @@ int main()
     {
         if(b==0)
         {
-            printf("Error")
+            printf("Error");
         }
         else
         {
