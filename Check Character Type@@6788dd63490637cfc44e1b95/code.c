@@ -10,7 +10,7 @@ int main()
     }
     else if ((n >= 'a' && n <= 'z') || (n >= 'A' && n <= 'Z'))
     {
-        printf("%c is a consonant.\n", n);
+        printf("Consonant", n);
     }
     else if (isdigit(n)) 
     {
