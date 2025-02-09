@@ -14,7 +14,7 @@ int main()
     }
     else if (isdigit(n)) 
     {
-        printf("%c is a digit.\n", n);
+        printf("Digit");
     }
     else
     {
