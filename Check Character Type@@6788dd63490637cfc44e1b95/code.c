@@ -11,12 +11,13 @@ int main()
     {
         printf("%c is a consonant.\n", n);
     }
-    else if (isdigit(n)) {
+    else if (isdigit(n)) 
+    {
         printf("%c is a digit.\n", n);
     }
     else
     {
-        printf("Special Character")
+        printf("Special Character");
     }
     return 0;
 }
