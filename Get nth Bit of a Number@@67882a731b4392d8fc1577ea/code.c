@@ -9,7 +9,7 @@ int main() {
     int number, n, bit;
 
     // Input number and the position of the bit to retrieve
-    printf("Enter a number: ");
+    printf(" ");
     scanf("%d", &number);
 
     printf("Enter the position of the bit (0-based index): ");
@@ -19,7 +19,7 @@ int main() {
     bit = getNthBit(number, n);
 
     // Output the result
-    printf("The %dth bit of the number %d is: %d\n", n, number, bit);
+    printf( n, number, bit);
 
     return 0;
 }
